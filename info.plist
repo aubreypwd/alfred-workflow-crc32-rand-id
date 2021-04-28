@@ -110,7 +110,7 @@
 				<key>script</key>
 				<string>&lt;?php
 
-echo crc32( time() / rand( 1, time() ) );
+echo crc32( microtime() / rand( 1, microtime() ) );
 
 ?&gt;</string>
 				<key>scriptargtype</key>
